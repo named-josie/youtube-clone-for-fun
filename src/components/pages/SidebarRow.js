@@ -1,6 +1,6 @@
 import './sidebarRow.css';
 
- function SidebarRow({ selected, title, Icon }) {
+ function SidebarRow({ selected, title }) {
   return (
     <div className= {`sidebarRow ${selected} && selected`}>
       {/* < Icon className={`sidebarIcon ${selected}` && 'selected'} /> */}
