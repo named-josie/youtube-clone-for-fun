@@ -1,32 +1,30 @@
+import React from 'react';
 import './App.css';
-import Navbar from './components/common/Navbar';
-import About from './components/pages/about'
+import Sidebar from './components/common/Sidebar';
 import Home from './components/pages/home'
 import Header from './components/common/Header'
 import Footer from './components/common/Footer';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+
 
 
 
 function App() {
   return (
     <div className="App">
-    <Router>
-    <div className='NavBAR'>
+    
     <Header />
-    <Navbar />
+    <div className='main-page'>
+    <Sidebar />
+    <Home/>
     </div>
     <div className="wrapper">
     
     <main>
-    <Routes>
-     <Route path = "/" element={<Home/>} />
-     <Route path ='/src/components/pages/about.js' element={<About/>} />
-     </Routes>
+    
       </main>
   </div>
   <Footer />
-  </Router>
+  
   </div>
 );
 }
