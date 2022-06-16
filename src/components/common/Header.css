@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo {
+height: 25px;
+
+object-fit: contain;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.special-icons {
+display: flex;
+align-items: center;
+}
