@@ -1,3 +1,13 @@
 .home-page {
+   
     flex: 0.8;
+    background-color: rgb(173, 252, 224);
+    padding: 40px 20px;
+    padding-bottom: 0;
+
+}
+
+.home-page {
+    margin-left: 5px;
+    margin-bottom: 20px;
 }

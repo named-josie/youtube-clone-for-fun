@@ -14,15 +14,14 @@ export default function Sidebar() {
       <SidebarRow  title="Home"/>
       <SidebarRow  title="Trending"/>
       <SidebarRow  title="Subscription"/>
-      <SidebarRow/>
-      <SidebarRow/>
-      <SidebarRow/>
-      <SidebarRow/>
-      <SidebarRow/>
-      <SidebarRow/>
-      
-      
-      
+      <hr/>
+      <SidebarRow  title="Library"/>
+      <SidebarRow  title="History"/>
+      <SidebarRow  title="Your videos"/>
+      <SidebarRow  title="Watch later"/>
+      <SidebarRow  title="Liked videos"/>
+      <SidebarRow  title="Show more"/>
+      <hr/>
       </div>
     );
   };
