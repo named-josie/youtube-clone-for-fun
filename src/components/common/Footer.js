@@ -3,7 +3,7 @@ export default function Footer() {
       return (
         <footer>
         
-          <p> footer {year}</p>
+          <p>{year}</p>
           
         </footer>
       );

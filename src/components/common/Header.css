@@ -3,18 +3,42 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #faf9fb;
 }
 .logo {
-height: 25px;
-
+height: 30px;
+margin-left: 20px;
 object-fit: contain;
 }
 .input-container {
     display: flex;
     align-items: center;
+    width: 30%;
+    border: 1px solid #d3d3d3;
 }
 
 .special-icons {
 display: flex;
 align-items: center;
 }
+
+.iconic {
+    margin-right: 10px;
+}
+
+.input-container > input {
+    flex: 1;
+    border: none;
+}
+
+.input-button {
+width: 50px !important;
+background-color: #f6f0fa;
+border-left: 1px solid #d3d3d3;
+color: #3e0884;
+}
+
+

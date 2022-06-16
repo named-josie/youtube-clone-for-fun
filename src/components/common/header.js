@@ -20,13 +20,14 @@ export default function Header() {
       </div>
       <div className='input-container'>
       <input type="text" placeholder='Search' />
-      <SearchIcon/>
+      <SearchIcon className='input-button' />
       </div>
       <div className='special-icons'>
-      <VideoCallIcon/>
-      <AppsIcon/>
-      <NotificationsIcon/>
-      <Avatar/>
+      <VideoCallIcon className='iconic'/>
+      <AppsIcon className='iconic'/>
+      <NotificationsIcon className='iconic'/>
+      <Avatar 
+      src='https://i.pinimg.com/originals/0f/e8/8f/0fe88f5ec14560e515ff42350b254c69.png' alt='RICK' />
       </div>
     </div>
   );
