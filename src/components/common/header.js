@@ -11,10 +11,10 @@ export default function Header() {
   return (
     <div className='header'>
       <div className='header-left'>
-      <MenuIcon />
+      <MenuIcon className='menu-icon' />
       <img
         className='logo'
-        src='https://www.citypng.com/public/uploads/small/51609620783uc927um4fsecn8ujdlnfdqe6vno4kjnxyb3hyv3yatqwsg5kyuwz5ukduz8anllw7azyduy8fpjih9hzg2u61lt84vn1iqhzfb55.png'
+        src='https://www.citypng.com/public/uploads/preview/-51609605598ayjq9eaidi.png'
         alt='youtube'
       />
       </div>
@@ -27,7 +27,7 @@ export default function Header() {
       <AppsIcon className='iconic'/>
       <NotificationsIcon className='iconic'/>
       <Avatar 
-      src='https://i.pinimg.com/originals/0f/e8/8f/0fe88f5ec14560e515ff42350b254c69.png' alt='RICK' />
+      src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTg6Q04yDlYkuGUoyxui_kxISq6xI233mtpA&usqp=CAU' alt='RICK' />
       </div>
     </div>
   );

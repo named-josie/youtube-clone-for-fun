@@ -3,16 +3,14 @@
     align-items: center;
 }
 
-.sidebarIcon {
-    color: #606060;
-    font-size: large !important;
-}
+
 
 .sidebar-title {
 flex: 1;
 margin-left: 20px;
-font-size: 12px;
+font-size: large !important;
 font-weight: 500;
+padding: 2px;
 }
 
 .sidebarRow:hover{
@@ -26,8 +24,9 @@ font-weight: 500;
 
 .sidebarRow:hover > .sidebar-title {
     font-weight: bold;
+    color: rgb(37, 138, 118);
 }
 
 .sidebarRow.selected {
-background-color: rgb(228, 197, 228);
+background-color: rgb(244, 235, 249);
 }
